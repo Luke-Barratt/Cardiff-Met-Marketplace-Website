@@ -1,0 +1,23 @@
+.footer {
+    background-color: #e94f36;
+    color: #ffffff;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.footer img {
+    width: 15%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .footer img {
+        width: 5%;
+        height: auto;
+    }
+}

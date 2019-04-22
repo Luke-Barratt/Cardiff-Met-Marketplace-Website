@@ -1,0 +1,29 @@
+#list_item_form_div {
+    background-color: #011933;
+    color: #ffffff;
+    padding-left: 30%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+input[name=item_name], [name=item_description], [name=submit_btn], [name=reset_btn] {
+    font-family: 'Raleway', sans-serif;
+}
+
+input[name="submit_btn"], [name=reset_btn] {
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+input[name="submit_btn"]:hover {
+    background-color: #e94f36;
+    color: #ffffff; 
+}
+
+input[name="reset_btn"]:hover {
+    background-color: #e94f36;
+    color: #ffffff; 
+}

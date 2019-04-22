@@ -1,0 +1,32 @@
+#signup_form_div {
+    background-color: #011933;
+    color: #ffffff;
+    padding-left: 30%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+input[name=forename], [name=surname], [name=username], 
+     [name=email], [name=repeatemail], [name=password], 
+     [name=repeatpassword], [name=reset_btn], [name=submit_btn] {
+    font-family: 'Raleway', sans-serif;
+}
+
+input[name="reset_btn"],[name="submit_btn"]{
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+input[name="reset_btn"]:hover {
+    background-color: #e94f36;
+    color: #ffffff; 
+}
+
+input[name="submit_btn"]:hover {
+    background-color: #e94f36;
+    color: #ffffff; 
+}
+

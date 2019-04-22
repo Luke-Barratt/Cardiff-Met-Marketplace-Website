@@ -1,0 +1,24 @@
+#login_form_div {
+    background-color: #011933;
+    color: #ffffff;
+    padding-left: 30%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+input[name=username], [name=password], [name=submit_btn] {
+    font-family: 'Raleway', sans-serif;
+}
+
+input[name="submit_btn"]{
+    margin-left: 65px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+input[name="submit_btn"]:hover {
+    background-color: #e94f36;
+    color: #ffffff; 
+}
